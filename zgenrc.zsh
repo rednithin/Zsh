@@ -13,13 +13,13 @@ if ! zgen saved; then
     zgen oh-my-zsh
     zgen oh-my-zsh plugins/git
     
-    zgen load zsh-users/zsh-history-substring-search
     zgen load zsh-users/zsh-completions
     zgen load zsh-users/zsh-autosuggestions
-    zgen load zsh-users/zsh-syntax-highlighting
 
     # zgen load denysdovhan/spaceship-prompt
     zgen load rednithin/honukai-iterm-zsh
+    zgen load zsh-users/zsh-syntax-highlighting
+    zgen load zsh-users/zsh-history-substring-search
     
     zgen save
     exec "$SHELL" -l
