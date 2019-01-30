@@ -9,10 +9,10 @@ SAVEHIST=10000
 # share history between sessions ???
 setopt SHARE_HISTORY
 # add timestamps to history
-setopt EXTENDED_HISTORY
-setopt PROMPT_SUBST
-setopt CORRECT
-setopt COMPLETE_IN_WORD
+# setopt EXTENDED_HISTORY
+# setopt PROMPT_SUBST
+# setopt CORRECT
+# setopt COMPLETE_IN_WORD
 # adds history
 setopt APPEND_HISTORY
 # adds history incrementally and share it across sessions
@@ -53,7 +53,7 @@ bindkey '^?' backward-delete-char
 
 # delete word with ctrl+backspace
 bindkey '^[[3;5~' backward-delete-word
-# bindkey '^[[3~' backward-delete-word
+bindkey '^[[3~' backward-delete-word
 
 # search history with fzf if installed, default otherwise
 if test -d /usr/local/opt/fzf/shell; then

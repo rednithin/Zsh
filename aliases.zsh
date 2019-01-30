@@ -1,3 +1,3 @@
 #!/bin/sh
-alias reload='exec "$SHELL" -l'
+alias reload='exec /bin/zsh -l'
 alias zr='zgen reset && reload'
