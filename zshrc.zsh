@@ -17,7 +17,4 @@ source ~/zsh/config.zsh
 source ~/zsh/completions.zsh
 
 source ~/zsh/path.zsh
-
-if [ -f "/opt/miniconda3/etc/profile.d/conda.sh" ]; then
-  source /opt/miniconda3/etc/profile.d/conda.sh
-fi
+source ~/zsh/source.zsh
