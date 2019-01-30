@@ -29,6 +29,7 @@ setopt HIST_EXPIRE_DUPS_FIRST
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 
+zmodload zsh/terminfo
 # fuzzy find: start to type
 bindkey "$terminfo[kcuu1]" up-line-or-beginning-search
 bindkey "$terminfo[kcud1]" down-line-or-beginning-search
