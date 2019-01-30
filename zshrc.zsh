@@ -15,3 +15,4 @@ source ~/zsh/config.zsh
 # fi
 
 source ~/zsh/completions.zsh
+source ~/zsh/path.zsh
