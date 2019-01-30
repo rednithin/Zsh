@@ -20,7 +20,6 @@ if ! zgen saved; then
     # zgen load rednithin/honukai-iterm-zsh
     zgen load zsh-users/zsh-syntax-highlighting
     zgen load zsh-users/zsh-history-substring-search
-    zgen load tylerreckart/hyperzsh
     
     zgen save
     exec "$SHELL" -l
