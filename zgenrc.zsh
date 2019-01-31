@@ -15,9 +15,10 @@ if ! zgen saved; then
     
     zgen load zsh-users/zsh-completions
     zgen load zsh-users/zsh-autosuggestions
+    zgen load djui/alias-tips
 
-    # zgen load denysdovhan/spaceship-prompt
-    zgen load rednithin/honukai-iterm-zsh
+    zgen load denysdovhan/spaceship-prompt
+    #zgen load rednithin/honukai-iterm-zsh
     
     # zgen load zsh-users/zsh-syntax-highlighting
     zgen load zdharma/fast-syntax-highlighting
