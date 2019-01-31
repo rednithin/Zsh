@@ -1,3 +1,4 @@
+#!/bin/zsh
 me=$(whoami)
 
 my_paths=("/home/$me/.yarn/bin" "/opt/miniconda3/bin/" "usr/local/miniconda3/bin/")

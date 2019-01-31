@@ -1,3 +1,4 @@
+#!/bin/zsh
 ## LOADING
 source ~/.zplug/init.zsh
 

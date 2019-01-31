@@ -1,4 +1,4 @@
-
+#!/bin/zsh
 ZGEN_FOLDER="${HOME}/.zgen"
 
 if [ ! -d $ZGEN_FOLDER ]; then
