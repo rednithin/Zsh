@@ -11,13 +11,13 @@ autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
 ### End of Zplugin's installer chunk
 
-# zplugin ice wait"0" lucid
+zplugin ice wait"0" lucid
 zplugin snippet OMZ::lib/completion.zsh
 
 zplugin snippet OMZ::lib/key-bindings.zsh
-# zplugin snippet OMZ::lib/git.zsh
-# zplugin snippet OMZ::lib/theme-and-appearance.zsh
-# zplugin snippet OMZ::plugins/git/git.plugin.zsh
+zplugin snippet OMZ::lib/git.zsh
+zplugin snippet OMZ::lib/theme-and-appearance.zsh
+zplugin snippet OMZ::plugins/git/git.plugin.zsh
 # zplugin cdclear -q # <- forget completions provided up to this moment
 
 zplugin ice wait"0" blockf lucid
@@ -39,8 +39,8 @@ zplugin load mptre/yank
 # zplugin ice wait'[[ -n ${ZLAST_COMMANDS[(r)cras*]} ]]' lucid
 # zplugin light zdharma/zplugin-crasis
 
-zplugin light denysdovhan/spaceship-prompt
-# zplugin snippet https://github.com/oskarkrawczyk/honukai-iterm-zsh/blob/master/honukai.zsh-theme
+# zplugin light denysdovhan/spaceship-prompt
+zplugin snippet https://github.com/oskarkrawczyk/honukai-iterm-zsh/blob/master/honukai.zsh-theme
 
 
 

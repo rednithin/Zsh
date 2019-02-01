@@ -14,12 +14,12 @@ export LC_CTYPE=en_US.UTF-8
 source ~/zsh/variables.zsh
 
 # Antigen
-# autoload -Uz compinit && compinit
-# source ~/zsh/plugins.zsh
+autoload -Uz compinit && compinit
+source ~/zsh/plugins.zsh
 
 # source ~/zsh/zgenrc.zsh
 # source ~/zsh/zplugrc.zsh
-source ~/zsh/zpluginrc.zsh
+# source ~/zsh/zpluginrc.zsh
 
 source ~/zsh/aliases.zsh
 source ~/zsh/path.zsh
