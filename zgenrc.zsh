@@ -11,7 +11,12 @@ source "${HOME}/.zgen/zgen.zsh"
 
 if ! zgen saved; then
     zgen oh-my-zsh
+    zgen oh-my-zsh lib/git
+    zgen oh-my-zsh lib/key-bindings
+    zgen oh-my-zsh lib/completion
+    zgen oh-my-zsh lib/theme-and-appearance
     zgen oh-my-zsh plugins/git
+    zgen oh-my-zsh plugins/globalias
     
     zgen load zsh-users/zsh-completions
     zgen load zsh-users/zsh-autosuggestions

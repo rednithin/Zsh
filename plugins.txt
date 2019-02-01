@@ -1,0 +1,17 @@
+robbyrussell/oh-my-zsh path:lib/git.zsh
+robbyrussell/oh-my-zsh path:lib/key-bindings.zsh
+robbyrussell/oh-my-zsh path:lib/completion.zsh
+robbyrussell/oh-my-zsh path:lib/theme-and-appearance.zsh
+robbyrussell/oh-my-zsh path:plugins/globalias
+
+zsh-users/zsh-completions
+zsh-users/zsh-autosuggestions
+djui/alias-tips
+mptre/yank
+
+# denysdovhan/spaceship-prompt
+oskarkrawczyk/honukai-iterm-zsh path:honukai.zsh-theme
+    
+# zsh-users/zsh-syntax-highlighting
+zdharma/fast-syntax-highlighting
+zsh-users/zsh-history-substring-search
