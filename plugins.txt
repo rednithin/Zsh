@@ -12,6 +12,6 @@ mptre/yank
 # denysdovhan/spaceship-prompt
 oskarkrawczyk/honukai-iterm-zsh path:honukai.zsh-theme
     
-# zsh-users/zsh-syntax-highlighting
-zdharma/fast-syntax-highlighting
+zsh-users/zsh-syntax-highlighting
+# zdharma/fast-syntax-highlighting
 zsh-users/zsh-history-substring-search
