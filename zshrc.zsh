@@ -11,16 +11,16 @@ export LC_CTYPE=en_US.UTF-8
 # fi
 
 
-source ~/zsh/variables.zsh
+source ~/Zsh/variables.zsh
 
 # Antigen
 autoload -Uz compinit && compinit
-source ~/zsh/plugins.zsh
+source ~/Zsh/plugins.zsh
 
-# source ~/zsh/zgenrc.zsh
-# source ~/zsh/zplugrc.zsh
-# source ~/zsh/zpluginrc.zsh
+# source ~/Zsh/zgenrc.zsh
+# source ~/Zsh/zplugrc.zsh
+# source ~/Zsh/zpluginrc.zsh
 
-source ~/zsh/aliases.zsh
-source ~/zsh/path.zsh
-source ~/zsh/source.zsh
+source ~/Zsh/aliases.zsh
+source ~/Zsh/path.zsh
+source ~/Zsh/source.zsh
