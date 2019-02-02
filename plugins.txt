@@ -7,7 +7,6 @@ robbyrussell/oh-my-zsh path:plugins/globalias
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 djui/alias-tips
-mptre/yank
 
 # denysdovhan/spaceship-prompt
 oskarkrawczyk/honukai-iterm-zsh path:honukai.zsh-theme
