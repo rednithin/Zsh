@@ -15,11 +15,16 @@ setopt PROMPT_SUBST
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=242'
 
-# If command execution time above min. time, plugins will not output time.
-ZSH_COMMAND_TIME_MIN_SECONDS=3
+# REPORTTIME=3
 
-# Message to display (set to "" for disable).
-ZSH_COMMAND_TIME_MSG="Execution time: %s sec"
+function preexec() {
+  timer=${timer:-$SECONDS}
+}
 
-# Message color.
-ZSH_COMMAND_TIME_COLOR="cyan"
+function precmd() {
+  if [ $timer ]; then
+    timer_show=$(($SECONDS - $timer))
+    export RPROMPT="%F{cyan}${timer_show}s %{$reset_color%}"
+    unset timer
+  fi
+}
