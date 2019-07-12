@@ -23,8 +23,20 @@ function preexec() {
 
 function precmd() {
   if [ $timer ]; then
-    timer_show=$(($SECONDS - $timer))
-    export RPROMPT="%F{cyan}${timer_show}s %{$reset_color%}"
-    unset timer
+    seconds=$(($SECONDS - $timer))
+    
+    hours=$(($seconds/3600))
+    min=$(($seconds/60))
+    sec=$(($seconds%60))
+    
+    if [ "$seconds" -le 60 ]; then
+        export RPROMPT="%F{cyan}${sec}s %{$reset_color%}"
+    elif [ "$seconds" -le 3600 ]; then
+        export RPROMPT="%F{cyan}${min}m${sec}s %{$reset_color%}"
+    else
+        min=$(($min%60))
+        export RPROMPT="%F{cyan}${hours}h${min}m${sec}s %{$reset_color%}"
+    fi
   fi
+  unset timer
 }
