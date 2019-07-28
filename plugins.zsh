@@ -10,7 +10,6 @@ source /home/nithin/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-z
 fpath+=( /home/nithin/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-autosuggestions )
 source /home/nithin/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-djui-SLASH-alias-tips/alias-tips.plugin.zsh
 fpath+=( /home/nithin/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-djui-SLASH-alias-tips )
-
 source /home/nithin/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-oskarkrawczyk-SLASH-honukai-iterm-zsh/honukai.zsh-theme
 source /home/nithin/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 fpath+=( /home/nithin/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-syntax-highlighting )
