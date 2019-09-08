@@ -25,5 +25,3 @@ source ~/Zsh/plugins.zsh
 source ~/Zsh/aliases.zsh
 source ~/Zsh/path.zsh
 source ~/Zsh/source.zsh
-
-conda init zsh
