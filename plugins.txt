@@ -3,13 +3,16 @@ robbyrussell/oh-my-zsh path:lib/key-bindings.zsh
 robbyrussell/oh-my-zsh path:lib/completion.zsh
 robbyrussell/oh-my-zsh path:lib/theme-and-appearance.zsh
 robbyrussell/oh-my-zsh path:plugins/globalias
+robbyrussell/oh-my-zsh path:lib/spectrum.zsh
+chisui/zsh-nix-shell path:nix-shell.plugin.zsh
 
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 djui/alias-tips
 
 # denysdovhan/spaceship-prompt
-oskarkrawczyk/honukai-iterm-zsh path:honukai.zsh-theme
+# oskarkrawczyk/honukai-iterm-zsh path:honukai.zsh-theme
+robbyrussell/oh-my-zsh path:themes/af-magic.zsh-theme
     
 zsh-users/zsh-syntax-highlighting
 # zdharma/fast-syntax-highlighting

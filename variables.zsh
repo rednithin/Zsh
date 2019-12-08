@@ -30,13 +30,15 @@ function precmd() {
     sec=$(($seconds%60))
     
     if [ "$seconds" -le 60 ]; then
-        export RPROMPT="%F{cyan}${sec}s %{$reset_color%}"
+      export RPROMPT="%F{cyan}[${NIX_SHELL_PACKAGES}] ${sec}s %{$reset_color%}"
     elif [ "$seconds" -le 3600 ]; then
-        export RPROMPT="%F{cyan}${min}m${sec}s %{$reset_color%}"
+        export RPROMPT="%F{cyan}[${NIX_SHELL_PACKAGES}] ${min}m${sec}s %{$reset_color%}"
     else
         min=$(($min%60))
-        export RPROMPT="%F{cyan}${hours}h${min}m${sec}s %{$reset_color%}"
+        export RPROMPT="%F{cyan}[${NIX_SHELL_PACKAGES}] ${hours}h${min}m${sec}s %{$reset_color%}"
     fi
+  else
+    export RPROMPT="%F{cyan}[${NIX_SHELL_PACKAGES}] %{$reset_color%}"
   fi
   unset timer
 }

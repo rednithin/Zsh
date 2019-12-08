@@ -22,7 +22,7 @@ source ~/Zsh/plugins.zsh
 # source ~/Zsh/zgenrc.zsh
 # source ~/Zsh/zplugrc.zsh
 # source ~/Zsh/zpluginrc.zsh
-
+hg_prompt_info(){} 
 source ~/Zsh/aliases.zsh
 source ~/Zsh/path.zsh
 source ~/Zsh/source.zsh
