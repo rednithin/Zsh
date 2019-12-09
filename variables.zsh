@@ -42,3 +42,11 @@ function precmd() {
   fi
   unset timer
 }
+
+_direnv_hook() {
+  eval "$("/nix/store/0nk3wwqz91jvv8p3pz59bjkqsgxbkpin-direnv-2.20.1-bin/bin/direnv" export zsh)";
+}
+typeset -ag precmd_functions;
+if [[ -z ${precmd_functions[(r)_direnv_hook]} ]]; then
+  precmd_functions+=_direnv_hook;
+fi
